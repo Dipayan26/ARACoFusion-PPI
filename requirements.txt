@@ -1,0 +1,14 @@
+# Core packages
+numpy==2.0.0
+pandas==2.2.3
+scikit-learn==1.6.1
+matplotlib==3.10.0
+
+# PyTorch with CUDA (use appropriate URL for GPU version)
+torch==2.6.0+cu121
+torchvision==0.21.0+cu121
+torchaudio==2.6.0+cu121
+--find-links https://download.pytorch.org/whl/torch_stable.html
+
+# ESM model from Facebook
+fair-esm @ git+https://github.com/facebookresearch/esm.git
